@@ -409,6 +409,10 @@ class MyMenu {
           'done': false,
         },
         {
+          'name': 'FutureBuilder',
+          'done': false,
+        },
+        {
           'name': 'InheritedWidget',
           'done': false,
         },
@@ -438,15 +442,11 @@ class MyMenu {
           'done': true,
         },
         {
-          'name': 'Future',
+          'name': 'Future&await',
           'done': false,
         },
         {
           'name': 'Stream',
-          'done': false,
-        },
-        {
-          'name': 'Await',
           'done': false,
         },
         {
@@ -562,6 +562,19 @@ class MyMenu {
       'list': [
         {
           'name': 'Canvas',
+          'done': false,
+        },
+      ]
+    },
+    {
+      'name': 'HotPubs',
+      'list': [
+        {
+          'name': 'webview_flutter',
+          'done': false,
+        },
+        {
+          'name': 'dio',
           'done': false,
         },
       ]

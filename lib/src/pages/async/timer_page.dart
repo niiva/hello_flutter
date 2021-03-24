@@ -21,6 +21,12 @@ class _TimerPgeState extends State<TimerPge> {
   }
 
   @override
+  void dispose() {
+    super.dispose();
+    _timerStop();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

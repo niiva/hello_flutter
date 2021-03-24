@@ -146,13 +146,19 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "webview_flutter",
+      "rootUri": "file:///opt/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "hello_flutter",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-03-24T18:36:35.606169Z",
+  "generated": "2021-03-24T22:45:31.586297Z",
   "generator": "pub",
   "generatorVersion": "2.13.0-149.0.dev"
 }

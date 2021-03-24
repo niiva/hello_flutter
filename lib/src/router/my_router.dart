@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_flutter/src/pages/async/future_page.dart';
 import 'package:hello_flutter/src/pages/async/timer_page.dart';
 import 'package:hello_flutter/src/pages/basic_widget/bottom_navigation_bar_page.dart';
 import 'package:hello_flutter/src/pages/basic_widget/chip_page.dart';
@@ -307,6 +308,9 @@ class MyRouter {
         break;
       case 'NotificationListener':
         routeTo = NotificationListenerPage();
+        break;
+      case 'Future&await':
+        routeTo = FuturePage();
         break;
 
       default:

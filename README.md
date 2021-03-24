@@ -24,6 +24,7 @@
   │   └──motion                  # 带有动画效果的组件
   │   └──animation               # 动画相关
   │   └──canvas                  # canvas实践(相关知识点在box/CustomPaint里面)
+  |   └──hot_pubs                # 比较热门的第三方pub
   ├── router                   # 路由
   ├── home_page.dart           # 程序主页面
   ├── main.dart                # 程序入口
@@ -60,13 +61,14 @@
     - Layout/Button
 
 - 2021-03-09
+
   - 1.总结和归纳了 Flutter 核心知识点, 项目目录变为 14 大类 100 多个组件知识点
   - 2.封装了路由, 菜单和路由跳转统一管理和控制
   - 3.完成页面:
     - Layout/Stack
     - Layout/Table
     - Layout/Wrap
--
+
 - 2021-03-10
 
   - 1.封装了几个组件, 并把之前代码里重复的部分替换成封装的组件
@@ -207,5 +209,5 @@
     - Listenable/Listener
 
 - 备忘:
-- materialApp，cupertinoApp，widgetsApp
-- Theme
+  - materialApp，cupertinoApp，widgetsApp
+  - Theme
