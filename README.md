@@ -24,7 +24,7 @@
   │   └──motion                  # 带有动画效果的组件
   │   └──animation               # 动画相关
   │   └──canvas                  # canvas实践(相关知识点在box/CustomPaint里面)
-  |   └──hot_pubs                # 比较热门的第三方pub
+  │   └──hot_pubs                # 比较热门的第三方pub
   ├── router                   # 路由
   ├── home_page.dart           # 程序主页面
   ├── main.dart                # 程序入口
@@ -179,7 +179,7 @@
 
 - 2021-03-21
 
-  - 1.完成页面
+  - 1.完成页面:
     - Box/SizedBox
     - Box/FractionallySizedBox
     - Box/FractionalTranslation
@@ -191,7 +191,7 @@
 
 - 2021-03-22
 
-  - 1.完成页面
+  - 1.完成页面:
     - Basic Widget/Container(用 tabbar 整理了一下页面)
     - Box/Transform(用 tabbar 整理了一下页面)
     - Gesture/Pointer(Absorb&Ignore)
@@ -202,11 +202,22 @@
 
 - 2021-03-23
 
-  - 1.完成页面
+  - 1.完成页面:
     - Listenable/LifeCycle
     - Listenable/StatefulWidgetState
     - Listenable/MediaQuery
     - Listenable/Listener
+
+- 2021-03-26
+
+  - 1.路由修改为命名路由方式
+  - 2.新增UnknownPage
+  - 3.完成页面:
+    - Async/await&async
+    - Async/Future
+    - Async/Stream
+    - Async/Completer
+    - Async/Isolates
 
 - 备忘:
   - materialApp，cupertinoApp，widgetsApp

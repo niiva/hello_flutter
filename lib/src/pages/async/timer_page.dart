@@ -3,12 +3,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:hello_flutter/src/component/ddd_card.dart';
 
-class TimerPge extends StatefulWidget {
+class TimerPage extends StatefulWidget {
   @override
-  _TimerPgeState createState() => _TimerPgeState();
+  _TimerPageState createState() => _TimerPageState();
 }
 
-class _TimerPgeState extends State<TimerPge> {
+class _TimerPageState extends State<TimerPage> {
   int _num;
   bool _switchOn;
   Timer _t;

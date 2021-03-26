@@ -3,13 +3,14 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:hello_flutter/src/component/ddd_card.dart';
 
-class CustomMutiChildLayoutPage extends StatefulWidget {
+class CustomMultiChildLayoutPage extends StatefulWidget {
   @override
-  _CustomMutiChildLayoutPageState createState() =>
-      _CustomMutiChildLayoutPageState();
+  _CustomMultiChildLayoutPageState createState() =>
+      _CustomMultiChildLayoutPageState();
 }
 
-class _CustomMutiChildLayoutPageState extends State<CustomMutiChildLayoutPage> {
+class _CustomMultiChildLayoutPageState
+    extends State<CustomMultiChildLayoutPage> {
   List<Widget> _cornerChildren;
   List<Widget> _circleChildren;
 
@@ -71,7 +72,7 @@ class _CustomMutiChildLayoutPageState extends State<CustomMutiChildLayoutPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('CustomMutiChildLayout Page'),
+        title: Text('CustomMultiChildLayout Page'),
       ),
       body: ListView(
         children: [
