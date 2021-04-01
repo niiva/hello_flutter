@@ -62,10 +62,12 @@ import 'package:hello_flutter/src/pages/layout/row_page.dart';
 import 'package:hello_flutter/src/pages/layout/stack_page.dart';
 import 'package:hello_flutter/src/pages/layout/table_page.dart';
 import 'package:hello_flutter/src/pages/layout/wrap_page.dart';
+import 'package:hello_flutter/src/pages/listenable/future_builder_page.dart';
 import 'package:hello_flutter/src/pages/listenable/life_cycle_page.dart';
 import 'package:hello_flutter/src/pages/listenable/listener_page.dart';
 import 'package:hello_flutter/src/pages/listenable/media_query_page.dart';
 import 'package:hello_flutter/src/pages/listenable/stateful_widget_state_page.dart';
+import 'package:hello_flutter/src/pages/listenable/stream_builder_page.dart';
 import 'package:hello_flutter/src/pages/popups/alert_dialog_page.dart';
 import 'package:hello_flutter/src/pages/popups/bottom_sheet_page.dart';
 import 'package:hello_flutter/src/pages/popups/expansion_panel_page.dart';
@@ -666,15 +668,15 @@ class MyRouter {
         },
         {
           'name': 'StreamBuilder',
-          'done': false,
+          'done': true,
           'route': '/listenable/stream_builder',
-          'page': null,
+          'page': (context) => StreamBuilderPage(),
         },
         {
           'name': 'FutureBuilder',
-          'done': false,
+          'done': true,
           'route': '/listenable/future_builder',
-          'page': null,
+          'page': (context) => FutureBuilderPage(),
         },
         {
           'name': 'InheritedWidget',
