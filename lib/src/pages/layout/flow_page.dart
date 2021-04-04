@@ -150,7 +150,7 @@ class _SlashFlowDelegate extends FlowDelegate {
 
   @override
   bool shouldRepaint(covariant FlowDelegate oldDelegate) {
-    return true;
+    return false;
   }
 }
 
@@ -185,7 +185,7 @@ class _CircleFlowDelegate extends FlowDelegate {
 
   @override
   bool shouldRepaint(covariant FlowDelegate oldDelegate) {
-    return true;
+    return false;
   }
 }
 
@@ -234,6 +234,6 @@ class _HeartFlowDelegate extends FlowDelegate {
 
   @override
   bool shouldRepaint(covariant FlowDelegate oldDelegate) {
-    return true;
+    return false;
   }
 }

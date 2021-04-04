@@ -185,7 +185,7 @@ class _FourCornerLayout extends MultiChildLayoutDelegate {
 
   @override
   bool shouldRelayout(covariant MultiChildLayoutDelegate oldDelegate) {
-    return true;
+    return false;
   }
 }
 
@@ -231,6 +231,6 @@ class _CircleLayout extends MultiChildLayoutDelegate {
 
   @override
   bool shouldRelayout(covariant MultiChildLayoutDelegate oldDelegate) {
-    return true;
+    return false;
   }
 }
